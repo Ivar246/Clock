@@ -1,9 +1,10 @@
 html{
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background: url(background.jpg),  linear-gradient(217deg, rgba(255,0,0,.8), rgba(192, 49, 49, 0) 70.71%);
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
+    overflow-y: hidden;
 }
 body{
     margin: 0;
@@ -41,14 +42,15 @@ body{
 
 .hand{
     width: 50%;
-    height: 6px;
+    height: 4px;
     background-color: black;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
-    /* transition: all 0.05s; */
-    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    /* transition: transform 1s linear;
+    animation-fill-mode: forwards; */
+    transition-timing-function: cubic-bezier(0, 0.5, 0.8, 1);
 }
 
 .min-hand{
