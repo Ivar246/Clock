@@ -16,12 +16,12 @@ body{
 .clock{
     background-image: url(/anlog.jpg);
  
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     transition: 500ms;
     width: 30rem;
-    height:0rem;
+    height:30rem;
     border: 20px solid white;
     border-radius: 50%;
     margin: 50px auto;
