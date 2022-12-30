@@ -14,14 +14,14 @@ body{
     align-items: center;
 }
 .clock{
-    background-image: url(/anlog.jpg);
+    background-image: url(/analog.png);
  
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: 500ms;
-    width: 30rem;
-    height:30rem;
+    width: 40rem;
+    height: 40rem;
     border: 20px solid white;
     border-radius: 50%;
     margin: 50px auto;
